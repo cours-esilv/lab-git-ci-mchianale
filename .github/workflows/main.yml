@@ -7,6 +7,8 @@ permissions:
   checks: write
   actions: read
   contents: read
+  issues: read
+  pull-requests: write
   
 jobs:
   Explore-GitHub-Actions:
