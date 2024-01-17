@@ -1,6 +1,13 @@
 name: main
+
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+  
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
